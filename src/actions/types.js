@@ -1,0 +1,3 @@
+export const SET_ACTIVE_CLASS = "SET_ACTIVE_CLASS";
+
+export const SHOW_AVERAGE_MARKS = "SHOW_AVERAGE_MARKS";

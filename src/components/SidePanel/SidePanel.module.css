@@ -1,0 +1,62 @@
+.sidePanel {
+  background: -webkit-linear-gradient(#4d4cad, #827ddc 43%, #9d9dcc);
+  min-width: 350px;
+  color: #fff;
+  overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .sidePanel {
+    min-width: 200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sidePanel {
+    min-width: 200px;
+
+  }
+}
+
+.topHeaderContainer {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.topHeaderText {
+  padding: 2rem 0;
+}
+
+.headerName {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.classList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  padding: 1rem 0;
+  cursor: pointer;
+  transition: all .1s linear;
+}
+
+.listItem:hover {
+  background: #4f4eaf;
+}
+
+.listItem div {
+  padding-left: 3.4rem;
+}
+
+.listItemSelected {
+  padding: 1rem 0;
+  background: #4f4eaf;
+  border-left: 5px solid #fff;
+}
+
+.listItemSelected div {
+  padding-left: 3rem;
+}

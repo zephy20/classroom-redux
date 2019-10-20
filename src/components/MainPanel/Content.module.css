@@ -1,0 +1,87 @@
+.container {
+  padding: 5%;
+}
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.cardContainer {
+  grid-column: span 6;
+  background: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  min-height: 250px;
+}
+
+.cardTop {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.subjectName {
+  grid-column: span 3;
+}
+
+.marksProgressBar {
+  grid-column: span 7;
+}
+
+.marksPercentage {
+  grid-column: span 2;
+  text-align: right;
+}
+
+.cardBottom {
+  padding: 1rem 0;
+}
+
+.subjectList {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  margin: 1rem;
+}
+
+.progressBar {
+  background: #c4c4c4;
+}
+
+.progressBar > div {
+  background: #4e4cae !important;
+}
+
+.studentName {
+  grid-column: span 6;
+  color: #4d4cad;
+  display: flex;
+  font-weight: 500;
+}
+
+.studentName div {
+  display: flex;
+  align-items: center;
+}
+
+.averageMarks {
+  grid-column: span 6;
+  text-align: right;
+  font-weight: 600;
+  color: #48b4f3;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    grid-column: span 12;
+    min-height: 250px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cardContainer {
+    grid-column: span 12;
+    min-height: 250px;
+  }
+}
